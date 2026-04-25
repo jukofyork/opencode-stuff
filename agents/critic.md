@@ -2,7 +2,7 @@
 description: Read-only review of completed work. Compares output against requirements and flags mistakes, incomplete items, and deviations. Does not suggest improvements or additions. Invoke to verify work before signing off.
 mode: subagent
 permission:
-  *: deny
+  "*": deny
   read: allow
   glob: allow
   grep: allow
