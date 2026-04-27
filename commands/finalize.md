@@ -10,7 +10,10 @@ Ready for final review. Please finalize this work:
    - Fix the identified issues
    - Resume the *same* @critic session using the `task_id` you saved to re-check
    - Repeat this step (step 2) until @critic confirms clean sign-off
-3. Summarize the verification, delete the completed `PLAN.md` file, and reset the todo list
-4. Commit all changes to the Git repo
+3. Upon clean sign-off:
+   - Summarize the verification
+   - Delete `PLAN.md` — it is no longer needed
+   - Reset the todo list
+   - Commit all changes to the Git repo
 
 CONSTRAINT: Do not stop until @critic confirms the work is correct and complete.

@@ -13,7 +13,8 @@ Implement the tasks defined in @PLAN.md for this worktree:
    - Fix the identified issues
    - Resume the *same* @critic session using the `task_id` you saved to re-check
    - Repeat this step (step 5) until @critic confirms clean sign-off
-6. Summarize the verification, delete the completed `PLAN.md` file, and reset the todo list
-7. Commit all changes to your assigned Git worktree branch
+6. Upon clean sign-off:
+   - Write the final `PLAN_REPORT.md` detailing what you have done (or have not done) and why
+   - Commit all changes to your assigned Git worktree branch
 
-CONSTRAINT: Do not stop until @critic confirms clean sign-off and the commit is made.
+CONSTRAINT: Do not stop until @critic confirms clean sign-off, the report is written and the commit is made.

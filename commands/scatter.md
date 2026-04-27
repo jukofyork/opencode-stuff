@@ -9,9 +9,14 @@ Initial planning discussion is complete. Finalize the requirements into a master
 2. Identify anything unclear, contradictory, or missing
 3. If real gaps exist, use the question tool to ask focused clarifying questions — one concern per question
 4. Write the complete plan to `MASTER_PLAN.md` at the project root (overwrite if it exists)
-5. Decompose the master plan into $1 independent (ie: **non-overlapping**) work items of approximately equal workload
-6. Ensure `.gitignore` includes `worktrees/`, and then create $1 Git worktrees inside `worktrees/` at the project root — each on its own branch (eg: `worktrees/wt-1/` on branch wt-1, etc.)
-7. Write a `PLAN.md` into each worktree containing that worktree's tasks, plus relevant context about what the other worktrees are handling (dependencies, shared interfaces, and boundaries)
+5. Decompose the master plan into $1 independent (ie: **non-overlapping**) work items
+6. Initialize a new Git repo if one does not already exist and ensure `.gitignore` includes `worktrees/`
+7. Create $1 Git worktrees inside `worktrees/` at the project root — each on its own branch (eg: `worktrees/<wt-branchname>/` on branch <wt-branchname>, etc.)
+8. Write a `PLAN.md` into each worktree containing:
+   - The worktree's specific task(s) along with a brief outline of the master plan
+   - Any relevant context about what the other worktrees are handling (dependencies, shared interfaces, and boundaries)
+   - A reminder to never modify `PLAN.md` during implementation
+   - Instructions to write a final `PLAN_REPORT.md` detailing what they have done (or have not done) and why
 
 Planning rules (steps 1–5):
 - Only ask about genuine gaps. Do not ask about things already answered in context
@@ -21,3 +26,5 @@ Planning rules (steps 1–5):
 - Work items must not overlap — if shared changes are needed, assign them to exactly one worktree and note the dependency
 
 CONSTRAINT: Never modify `MASTER_PLAN.md` during implementation and do not delete `MASTER_PLAN.md` until instructed to do so.
+
+$2
