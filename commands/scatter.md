@@ -18,7 +18,7 @@ Initial planning discussion is complete. Finalize the requirements into a master
    - A reminder to never modify `PLAN.md` during implementation
    - Instructions to write a final `PLAN_REPORT.md` detailing what they have done (or have not done) and why
 
-Planning rules (steps 1–5):
+Planning rules (steps 1–4):
 - Only ask about genuine gaps. Do not ask about things already answered in context
 - Do not ask hypothetical or "what about future..." questions
 - Keep questions concrete and answerable

@@ -13,7 +13,7 @@ Initial planning discussion is complete. Finalize the requirements into a plan, 
 6. Immediately begin implementing exactly as written in `PLAN.md`
 7. Update the todo list as you progress
 
-Planning rules (steps 1–5):
+Planning rules (steps 1–4):
 - Only ask about genuine gaps — do not ask about things already answered in context
 - Do not ask hypothetical or "what about future..." questions
 - Keep questions concrete and answerable
