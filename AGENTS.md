@@ -10,7 +10,7 @@
 
 ## Task Completion
 
-- **Phase large refactors** - never attempt multi-file refactors in a single response; break work into explicit phases (eg: complete phase 1, verify using @critic, move to phase 2, verify using @critic, etc.)
+- **Phase large refactors** - never attempt multi-file refactors in a single response; break work into explicit phases (eg: complete phase 1, verify using @critic, move to phase 2, verify using @critic, and so on)
 - **Execute fully** - complete every aspect of the assigned task. Do not ask whether to continue or unilaterally decide the work is "good enough"
 - **No shortcuts** - implement full functionality methodically according to the plan rather than skipping steps
 
@@ -19,7 +19,10 @@
 - **Use @explore freely** - always try to delegate read-only research and codebase analysis to @explore; safe to run multiple instances in parallel
 - **Use sequential @general freely** - offload isolated coding work to @general rather than handling everything directly in the main session
 - **Use parallel @general with great care** - spawning parallel @general sub-agents can cause them to conflict and overwrite each other's work; either use them sequentially or carefully assign non-overlapping tasks
+- **Use @troubleshoot when stuck** - invoke this read-only agent when you are confused, going in circles, or unable to make progress
 - **Use @critic for verification** - invoke this read-only agent to compare output against requirements and flag errors before finishing
+
+- **Use @troubleshoot for ...** - when you are really stuck with debugging or ..., invoke this read-only agent to ...
 
 ## External Dependencies
 
@@ -39,5 +42,5 @@
 
 # Sandbox Restrictions
 
-- **External network is blocked** - commands are run inside `bwrap --unshare-net`, so `wget`, `curl`, `ping`, API requests, etc will not work
-- **Package installation is blocked** - package managers (`pip3`, `npm`, `gem`, `cargo`, `apt`, `brew`, etc.) cannot reach external repositories  
+- **External network is blocked** - commands are run inside `bwrap --unshare-net` so network tools (`wget`, `curl`, `ping`, etc) and API requests will not work
+- **Package installation is blocked** - package managers (`pip3`, `npm`, `gem`, `cargo`, `apt`, `brew`, etc) cannot reach external repositories
