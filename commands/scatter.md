@@ -16,7 +16,7 @@ Initial planning discussion is complete. Finalize the requirements into a master
    - The worktree's specific task(s) along with a brief outline of the master plan
    - Any relevant context about what the other worktrees are handling (dependencies, shared interfaces, and boundaries)
    - A reminder to never modify `PLAN.md` during implementation
-   - Instructions to write a final `PLAN_REPORT.md` detailing what they have done (or have not done) and why
+   - Instructions to write a final `REPORT.md` detailing what they have done and why
 
 Planning rules (steps 1–5):
 - Only ask about genuine gaps. Do not ask about things already answered in context
