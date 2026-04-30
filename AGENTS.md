@@ -22,8 +22,6 @@
 - **Use @troubleshoot when stuck** - invoke this read-only agent when you are confused, going in circles, or unable to make progress
 - **Use @critic for verification** - invoke this read-only agent to compare output against requirements and flag errors before finishing
 
-- **Use @troubleshoot for ...** - when you are really stuck with debugging or ..., invoke this read-only agent to ...
-
 ## External Dependencies
 
 - **Never add external dependencies** unless they provide substantial, measurable value (eg: graphics, networking, JSON/XML parsing)
