@@ -1,6 +1,6 @@
 ---
 description: Decompose the master plan into parallel worktrees
-agent: build
+agent: plan
 ---
 
 Initial planning discussion is complete. Finalize the requirements into a master plan, then decompose it into parallel work:

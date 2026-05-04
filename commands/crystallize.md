@@ -1,22 +1,19 @@
 ---
-description: Crystallize the plan and start building
-agent: build
+description: Crystallize into a plan
+agent: plan
 ---
 
-Initial planning discussion is complete. Finalize the requirements into a plan, then implement it:
+Initial planning discussion is complete. Finalize the requirements into a plan:
 
 1. Review the preceding discussion and context to understand the requirements
 2. Identify anything unclear, contradictory, or missing
 3. If real gaps exist, use the question tool to ask focused clarifying questions — one concern per question
 4. Write the complete plan to `PLAN.md` at the project root (overwrite if it exists)
-5. Update the todo list with work items from the plan
-6. Immediately begin implementing exactly as written in `PLAN.md`
-7. Update the todo list as you progress
 
-Planning rules (steps 1–4):
+Rules:
 - Only ask about genuine gaps — do not ask about things already answered in context
 - Do not ask hypothetical or "what about future..." questions
 - Keep questions concrete and answerable
 - `PLAN.md` is always the full current plan, never a partial update
 
-CONSTRAINT: Never modify `PLAN.md` during implementation and do not delete `PLAN.md` until instructed to do so.
+CONSTRAINT: Stop after writing `PLAN.md` and do not modify any other files.
